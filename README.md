@@ -1,16 +1,32 @@
-# React + Vite
+  
+# Personal Portfolio – Tasrik
+**My personal portfolio** is a modern, responsive web application built to showcase my skills, projects, and professional journey as a developer. Designed with clean UI/UX principles, it presents my work, experience, and contact information in a visually appealing and easily navigable format. This portfolio serves as a central hub for anyone looking to learn more about me, explore my technical background, or collaborate on future opportunities.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## **Target Audience**
 
-## React Compiler
+The **Personal Portfolio** website is tailored for:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+-   Recruiters and hiring managers evaluating my technical background
+    
+-   Collaborators, developers, and clients looking to connect
+    
+-   Anyone interested in exploring my projects, skills, and experience
+    
 
-## Expanding the ESLint configuration
+It provides a clean and organized presentation of my professional information, enhancing my visibility in academic and industry environments.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+## **Tech Stack**
+
+<table> <thead> <tr> <th>Category</th> <th>Technologies</th> </tr> </thead> <tbody> <tr> <td>Frontend</td> <td>React, TailwindCSS, JavaScript, HTML</td> </tr> <tr> <td>Deployment</td> <td>Vercel</td> </tr> </tbody> </table>
+  
+
+
+## **Project Features**
+
+<ul> <li><strong>About Me Section</strong> – Highlights my background and interests</li> <li><strong>Skills Overview</strong> – Displays technical proficiencies with modern UI</li> <li><strong>Projects Showcase</strong> – Interactive cards featuring my development work</li> <li><strong>Contact Section</strong> – Easy ways to reach out, including email and social links</li> <li><strong>Responsive Design</strong> – Fully optimized for desktop, tablet, and mobile devices</li> <li><strong>Smooth UI/UX</strong> – Clean animations and user-friendly navigation</li> </ul>
+
+----------
