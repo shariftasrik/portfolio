@@ -23,7 +23,6 @@ export default function Contact() {
     name: language === "en" ? "Name" : "নাম",
     email: language === "en" ? "Email" : "ইমেইল",
 
-    // 🔥 NEW TEXT FOR SUBJECT
     subject: language === "en" ? "Subject" : "বিষয়",
     subjectPlaceholder:
       language === "en"
@@ -139,13 +138,12 @@ export default function Contact() {
               />
             </div>
 
-            {/* 🔥 SUBJECT FIELD (NEW) */}
             <div>
               <label className="block text-xs font-medium text-(--color-text)/70 mb-1">
                 {TEXT.subject}
               </label>
               <input
-                name="subject"     // ⭐ IMPORTANT: EmailJS variable
+                name="subject"     
                 type="text"
                 required
                 className="
