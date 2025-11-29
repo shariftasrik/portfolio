@@ -1,6 +1,6 @@
   
 # Personal Portfolio – Tasrik
-**Personal Portfolio** is a modern, responsive web application built to showcase my skills, projects, and professional journey as a developer. Designed with clean UI/UX principles, it presents my work, experience, and contact information in a visually appealing and easily navigable format. This portfolio serves as a central hub for anyone looking to learn more about me, explore my technical background, or collaborate on future opportunities.
+**My personal portfolio** is a modern, responsive web application built to showcase my skills, projects, and professional journey as a developer. Designed with clean UI/UX principles, it presents my work, experience, and contact information in a visually appealing and easily navigable format. This portfolio serves as a central hub for anyone looking to learn more about me, explore my technical background, or collaborate on future opportunities.
 
 
 
