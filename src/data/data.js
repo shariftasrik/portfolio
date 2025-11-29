@@ -146,8 +146,8 @@ export const PROJECTS = [
     longDescription:
       "A premium developer portfolio built with React + Tailwind + Framer Motion featuring animated sections, smooth UX, and reusable components built for scalability.",
     image: p3_tasrik_portfolio,
-    github: "https://github.com/shariftasrik/tasrik-portfolio",
-    preview: "https://tasrik.vercel.app",
+    github: "https://github.com/shariftasrik/portfolio",
+    preview: "https://portfolio-tasrik.vercel.app/",
     tech: ["React", "Tailwind", "Framer Motion"],
     year: "2025",
     madeAt: "Personal Project",
