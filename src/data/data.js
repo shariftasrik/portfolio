@@ -142,9 +142,9 @@ export const PROJECTS = [
   {
     name: "Tasrik Portfolio",
     category: "Development",
-    shortDescription: "Personal branding portfolio with animations & sections.",
+    shortDescription: "Personal portfolio with animations & sections.",
     longDescription:
-      "A premium developer portfolio built with React + Tailwind + Framer Motion featuring animated sections, smooth UX, and reusable components built for scalability.",
+      "My personal portfolio which is a premium developer portfolio built with React + Tailwind + Framer Motion featuring animated sections, smooth UX, and reusable components built for scalability.",
     image: p3_tasrik_portfolio,
     github: "https://github.com/shariftasrik/portfolio",
     preview: "https://portfolio-tasrik.vercel.app/",

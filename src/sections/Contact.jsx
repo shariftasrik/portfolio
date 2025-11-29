@@ -15,15 +15,21 @@ export default function Contact() {
   const [loading, setLoading] = useState(false);
   const [statusMessage, setStatusMessage] = useState(null);
 
-
   const SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
   const TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
   const PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
 
-
   const TEXT = {
     name: language === "en" ? "Name" : "নাম",
     email: language === "en" ? "Email" : "ইমেইল",
+
+    // 🔥 NEW TEXT FOR SUBJECT
+    subject: language === "en" ? "Subject" : "বিষয়",
+    subjectPlaceholder:
+      language === "en"
+        ? "Subject of your message"
+        : "মেসেজের বিষয়",
+
     message: language === "en" ? "Message" : "মেসেজ",
     namePlaceholder: language === "en" ? "Your name" : "আপনার নাম",
     emailPlaceholder: language === "en" ? "you@example.com" : "আপনার ইমেইল",
@@ -93,7 +99,9 @@ export default function Contact() {
             initial={{ opacity: 0, x: 24 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
-          >
+         >
+
+            {/* NAME FIELD */}
             <div>
               <label className="block text-xs font-medium text-(--color-text)/70 mb-1">
                 {TEXT.name}
@@ -112,6 +120,7 @@ export default function Contact() {
               />
             </div>
 
+            {/* EMAIL FIELD */}
             <div>
               <label className="block text-xs font-medium text-(--color-text)/70 mb-1">
                 {TEXT.email}
@@ -130,6 +139,26 @@ export default function Contact() {
               />
             </div>
 
+            {/* 🔥 SUBJECT FIELD (NEW) */}
+            <div>
+              <label className="block text-xs font-medium text-(--color-text)/70 mb-1">
+                {TEXT.subject}
+              </label>
+              <input
+                name="subject"     // ⭐ IMPORTANT: EmailJS variable
+                type="text"
+                required
+                className="
+                  w-full rounded-lg bg-(--color-bg) 
+                  border border-(--color-accent-soft) 
+                  px-3 py-2 text-sm text-(--color-text)
+                  outline-none focus:border-(--color-accent)
+                "
+                placeholder={TEXT.subjectPlaceholder}
+              />
+            </div>
+
+            {/* MESSAGE FIELD */}
             <div>
               <label className="block text-xs font-medium text-(--color-text)/70 mb-1">
                 {TEXT.message}
@@ -178,15 +207,13 @@ export default function Contact() {
             )}
           </motion.form>
 
+          {/* Contact Info */}
           <div className="space-y-6 text-sm text-(--color-text)/80">
             <div className="space-y-3">
-
-              {/* Email */}
               <p>
                 <span className="text-(--color-text)/60">
                   {language === "en" ? "Email:" : "ইমেইল:"}{" "}
                 </span>
-
                 <a
                   href={`mailto:${CONTACT.email}`}
                   className="text-(--color-accent) hover:underline"
@@ -195,18 +222,14 @@ export default function Contact() {
                 </a>
               </p>
 
-              {/* Address */}
               <p>
                 <span className="text-(--color-text)/60">
                   {language === "en" ? "Address:" : "ঠিকানা:"}{" "}
                 </span>
-
                 {language === "en" ? "Dhaka, Bangladesh" : "ঢাকা, বাংলাদেশ"}
               </p>
-
             </div>
           </div>
-
 
         </div>
 
