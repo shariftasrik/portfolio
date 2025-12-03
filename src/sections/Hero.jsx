@@ -24,7 +24,7 @@ export default function Hero() {
       animate="visible"
       exit={{ opacity: 0, y: -20, transition: { duration: 0.2 } }}
       className="
-        min-h-[40vh]
+        min-h-[40vh] lg:min-h-[55vh] xl:min-h-[72vh] 2xl:min-h-[78vh]
         grid grid-cols-1
         md:grid-cols-[minmax(0,1.5fr)_minmax(0,1.5fr)]
         gap-12
